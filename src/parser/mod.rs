@@ -15,6 +15,10 @@ pub struct Args {
 
    /// Input files/directories
    pub files: Vec<PathBuf>,
+
+   /// Exclude VCS
+   #[arg(short, long)]
+   pub exclude_vcs: bool,
 }
 
 /// Targez Mode
