@@ -18,6 +18,8 @@
 ### Options
 - `-t`, `--target`: Target file
 
+- `-e`, `--exclude-vcs`: Exclude Version Control System files
+
 - `-h`, `--help`: Print help information
 
 - `-V`, `--version`: Print version information
